@@ -1,6 +1,6 @@
 # Vagrant Box "Bachelorarbeit"
 ## Available Software:
-* node 0.10.0
+* node 0.8.22 (0.10.0 prepared via nvm)
 * PostgreSQL 9.1
 * Ruby 2.0.0 (via rvm)
 * ZSH (with oh-my-zsh)
