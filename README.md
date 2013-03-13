@@ -1,5 +1,8 @@
 # Vagrant Box "Bachelorarbeit"
-## Available Software:
+## Operating System
+* Debian 6.0 Squeeze, 64-bit
+
+## Available Software
 * node 0.8.22 (0.10.0 prepared via nvm)
 * PostgreSQL 9.1
 * Ruby 2.0.0 (via rvm)
