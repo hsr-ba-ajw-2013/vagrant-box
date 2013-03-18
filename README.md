@@ -9,7 +9,7 @@
 * ZSH (with oh-my-zsh)
 
 ## Default Port Forwardings
-Following ports on your local machine will be forwarded to this box' applications:
+Following ports on your local machine will be forwarded to this applications inside the vagrant box:
 * 2222 -> 22 (SSH)
 * 9000 -> 80 (HTTP)
 * 9001 -> 3000 (node.js Express.js instance, the actual Roomies application)
