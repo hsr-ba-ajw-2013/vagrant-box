@@ -12,14 +12,18 @@
 Following ports on your local machine will be forwarded to this box' applications:
 * 2222 -> 22 (SSH)
 * 9000 -> 80 (HTTP)
-* 9001 -> 5432 (PostgreSQL)
+* 9001 -> 3000 (node.js Express.js instance, the actual Roomies application)
+* 9002 -> 5432 (PostgreSQL)
 
 Modify your Vagrantfile if you need any specific port forwardings.
 
 ## Additional Notes
 ### PostgreSQL
-* The default user `postgres` has no password yet
+* The system user `postgres` uses `postgres` as password
+* The default database user `postgres` has no password yet
 * The database server is accessible from any remote host via IPv4. Consider changing this via `/etc/postgresql/9.1/main/pg_hba.conf`
+* When in the vagrant box' shell, use `psql -h localhost -U postgres` to connect with the default database user
+* When outside (i.e. using PGAdmin), connect to the mapped port 9002 using the `postgres` default database user
 
 ### ZSH
 ZSH is the default login shell for the vagrant user
