@@ -6,6 +6,7 @@
 * node 0.8.22 (0.10.0 prepared via nvm)
 * PostgreSQL 9.1
 * Ruby 2.0.0 (via rvm)
+* Sun Java 6
 * ZSH (with oh-my-zsh)
 
 ## Default Port Forwardings
