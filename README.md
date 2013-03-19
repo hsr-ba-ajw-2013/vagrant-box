@@ -27,3 +27,6 @@ Modify your Vagrantfile if you need any specific port forwardings.
 
 ### ZSH
 ZSH is the default login shell for the vagrant user
+
+### Symlinks
+This box enables symlinks inside shared folders by default. Thanks http://blog.liip.ch/archive/2012/07/25/vagrant-and-node-js-quick-tip.html.
