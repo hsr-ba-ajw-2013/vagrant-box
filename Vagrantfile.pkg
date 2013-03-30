@@ -5,7 +5,7 @@ Vagrant::Config.run do |config|
 
 	# Port Mappings:
 	config.vm.forward_port	80, 9000	# HTTP
-	config.vm.forward_port	3000, 9001	# Node Express.js Instance, Roomies App  
+	config.vm.forward_port	3000, 9001	# Node Express.js Instance, Roomies App
 	config.vm.forward_port	5432, 9002	# PostgreSQL
 
 	# Enable symlinks for shared folders:

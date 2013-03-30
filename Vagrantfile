@@ -35,5 +35,5 @@
 #
 Vagrant::Config.run do |config|
   config.vm.box = "ba-box"
-  config.vm.box_url = "https://dl.dropbox.com/u/6981682/ba-box.box"
+  config.vm.box_url = "https://dl.dropbox.com/u/694056/ba.box"
 end
